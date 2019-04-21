@@ -1,0 +1,30 @@
+{
+  "name": "wedding-photobooth",
+  "version": "1.0.0",
+  "description": "A multi-platform photo booth software using Electron and your camera",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "GPL-3.0",
+  "os": [
+    "linux",
+    "darwin"
+  ],
+  "keywords": [
+    "photobooth",
+    "booth",
+    "gphoto2",
+    "camera",
+    "wedding"
+  ],
+  "author": {
+    "name": "David Born"
+  },
+  "devDependencies": {
+    "electron": "^4.1.4"
+  },
+  "dependencies": {
+    "@typedproject/gphoto2-driver": "^2.2.2"
+  }
+}
